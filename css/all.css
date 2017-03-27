@@ -1,0 +1,460 @@
+body {
+	/*background: url(../images/indexbg.jpg) no-repeat 0px 0px,url(../images/indexbg2.jpg) 621px bottom;
+	background: url(../images/bg.png) no-repeat;*/
+}
+.container{
+	position: relative;
+	margin:auto;
+	width:1100px;
+	height:720px;
+}
+.logo{
+	position:absolute;
+	width: 1100px;
+	height: 173px;
+	margin:auto; 
+}
+#top-button{
+	position:absolute;
+	top:80px;
+}
+.top-button{
+	display:inline-block;
+}
+#left-button{
+	position:absolute;
+	top:20px;
+	left:10px;
+}
+.left-button{
+	padding-bottom:5px;
+}
+
+#contact{
+	position:absolute;
+	top:60px;
+	left:50px;
+	z-index:2;
+	width:850px;
+	height:400px;
+	}
+
+#topbtn {
+	position: absolute;
+	width: 1250px;
+	height: 83px;
+	top: 85px;
+	
+}
+.btn {
+	height: 83px;
+	width: 90px;
+	float: left;
+	margin-right: 4px;
+}
+.tbtn1 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn1.png);
+	background-position: 0px 0px;
+	}
+.tbtn1:hover{
+	background-image: url(../images/btn1.png);
+	background-position: 0px 83px;
+	}
+.tbtn2 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn2.png);
+	background-position: 0px 0px;
+	}
+.tbtn2:hover{
+	background-image: url(../images/btn2.png);
+	background-position: 0px 83px;
+	}
+.tbtn3 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn3.png);
+	background-position: 0px 0px;
+	}
+.tbtn3:hover{
+	background-image: url(../images/btn3.png);
+	background-position: 0px 83px;
+	}
+.tbtn4 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn4.png);
+	background-position: 0px 0px;
+	}
+.tbtn4:hover{
+	background-image: url(../images/btn4.png);
+	background-position: 0px 83px;
+	}
+.tbtn5 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn5.png);
+	background-position: 0px 0px;
+	}
+.tbtn5:hover{
+	background-image: url(../images/btn5.png);
+	background-position: 0px 83px;
+	}
+.tbtn6 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn6.png);
+	background-position: 0px 0px;
+	}
+.tbtn6:hover{
+	background-image: url(../images/btn6.png);
+	background-position: 0px 83px;
+	}
+.tbtn7 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn7.png);
+	background-position: 0px 0px;
+	}
+.tbtn7:hover{
+	background-image: url(../images/btn7.png);
+	background-position: 0px 83px;
+	}
+.tbtn8 {
+	float:right;
+	width:90px;
+	height:83px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/btn8.png);
+	background-position: 0px 0px;
+	}
+.tbtn8:hover{
+	background-image: url(../images/btn8.png);
+	background-position: 0px 83px;
+	}
+
+#leftbtn {
+	position: absolute;
+	z-index:1;
+	top: 190px;
+	left: 10px;
+}
+.lbtn {
+	margin-top: 5px;
+}
+.col_lbtn1 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/col_lbtn1.png);
+	background-position: 0px 0px;
+	}
+.col_lbtn1:hover{
+	background-image: url(../images/col_lbtn1.png);
+	background-position: 0px 62px;
+	}
+.col_lbtn2 {
+	width:100px;
+	height:81px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/col_lbtn2.png);
+	background-position: 0px 0px;
+	}
+.col_lbtn2:hover{
+	background-image: url(../images/col_lbtn2.png);
+	background-position: 0px 62px;
+	}
+.col_lbtn3 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/col_lbtn3.png);
+	background-position: 0px 0px;
+	}
+.col_lbtn3:hover{
+	background-image: url(../images/col_lbtn3.png);
+	background-position: 0px 62px;
+	}
+.col_lbtn4 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/col_lbtn4.png);
+	background-position: 0px 0px;
+	}
+.col_lbtn4:hover{
+	background-image: url(../images/col_lbtn4.png);
+	background-position: 0px 62px;
+	}
+
+/*認識景文*/
+.int_lbtn1 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/i_btn1.png);
+	background-position: 0px 0px;
+	}
+.int_lbtn1:hover{
+	background-image: url(../images/i_btn1.png);
+	background-position: 0px 62px;
+	}
+.int_lbtn2 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/i_btn2.png);
+	background-position: 0px 0px;
+	}
+.int_lbtn2:hover{
+	background-image: url(../images/i_btn2.png);
+	background-position: 0px 62px;
+	}
+.int_lbtn3 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/i_btn3.png);
+	background-position: 0px 0px;
+	}
+.int_lbtn3:hover{
+	background-image: url(../images/i_btn3.png);
+	background-position: 0px 62px;
+	}
+.int_lbtn4 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/i_btn4.png);
+	background-position: 0px 0px;
+	}
+.int_lbtn4:hover{
+	background-image: url(../images/i_btn4.png);
+	background-position: 0px 62px;
+	}
+.int_lbtn5 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/i_btn5.png);
+	background-position: 0px 0px;
+	}
+.int_lbtn5:hover{
+	background-image: url(../images/i_btn5.png);
+	background-position: 0px 62px;
+	}
+.int_lbtn6 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/i_btn6.png);
+	background-position: 0px 0px;
+	}
+.int_lbtn6:hover{
+	background-image: url(../images/i_btn6.png);
+	background-position: 0px 62px;
+	}
+.int_lbtn7 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/i_btn7.png);
+	background-position: 0px 0px;
+	}
+.int_lbtn7:hover{
+	background-image: url(../images/i_btn7.png);
+	background-position: 0px 62px;
+	}
+/*認識景文*/
+
+/*入學管道*/
+.ad_lbtn1 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/a_btn1.png);
+	background-position: 0px 0px;
+	}
+.ad_lbtn1:hover{
+	background-image: url(../images/a_btn1.png);
+	background-position: 0px 62px;
+	}
+.ad_lbtn2 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/a_btn2.png);
+	background-position: 0px 0px;
+	}
+.ad_lbtn2:hover{
+	background-image: url(../images/a_btn2.png);
+	background-position: 0px 62px;
+	}
+.ad_lbtn3 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/a_btn3.png);
+	background-position: 0px 0px;
+	}
+.ad_lbtn3:hover{
+	background-image: url(../images/a_btn3.png);
+	background-position: 0px 62px;
+	}
+.ad_lbtn4 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/a_btn4.png);
+	background-position: 0px 0px;
+	}
+.ad_lbtn4:hover{
+	background-image: url(../images/a_btn4.png);
+	background-position: 0px 62px;
+	}
+.ad_lbtn5 {
+	width:100px;
+	height:62px;
+	display:block;
+	cursor: hand;
+	background-image: url(../images/a_btn5.png);
+	background-position: 0px 0px;
+	}
+.ad_lbtn5:hover{
+	background-image: url(../images/a_btn5.png);
+	background-position: 0px 62px;
+	}
+/*入學管道*/
+
+
+box-content{
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+}	
+
+.collegeitem {
+	position: relative;
+	background-image: url(../images/bg2.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+.introitem {
+	position: relative;
+	background-image: url(../images/bg1.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+.contactitem {
+	position: relative;
+	background-image: url(../images/bg8.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+.admissionsitem {
+	position: relative;
+	background-image: url(../images/bg3.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+.recruititem {
+	position: relative;
+	background-image: url(../images/bg4.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+.videoitem {
+	position: relative;
+	background-image: url(../images/bg5.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+.osrecruititem {
+	position: relative;
+	background-image: url(../images/bg6.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+.boarditem {
+	position: relative;
+	background-image: url(../images/bg7.png);
+	background-repeat: no-repeat;
+	height: 592px;
+	width: 1100px;
+	top:173px;
+}
+
+#Area{
+	padding-top: 20px;
+	padding-left: 130px;
+}
+#Area iframe {
+	position: relative;
+}
+#Area-1{
+	padding-top: 50px;
+	padding-left: 50px;
+}
+#Area-2{
+	padding-top: 20px;
+	padding-left: 0px;
+}
+
+.picture{
+	position: absolute;
+	width: 820px;
+	top: 70px;
+	height: 752px; 
+}
